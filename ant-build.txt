@@ -1,0 +1,22 @@
+Buildfile: F:\workspace\javaworkspace\AntDateUtils\build.xml
+
+clean:
+   [delete] Deleting directory F:\workspace\javaworkspace\AntDateUtils\bin
+
+init:
+    [mkdir] Created dir: F:\workspace\javaworkspace\AntDateUtils\bin
+
+compile:
+    [javac] Compiling 1 source file to F:\workspace\javaworkspace\AntDateUtils\bin
+
+copy-dependencies:
+     [copy] Copying 12 files to F:\workspace\javaworkspace\AntDateUtils\dist\lib
+
+jar:
+     [echo] classpath.name : lib/activation-1.1.jar lib/commons-compiler-2.6.1.jar lib/geronimo-jms_1.1_spec-1.0.jar lib/groovy-all-2.0.7.jar lib/janino-2.6.1.jar lib/joda-convert-1.2.jar lib/joda-time-2.5.jar lib/logback-classic-1.1.2.jar lib/logback-core-1.1.2.jar lib/mail-1.4.jar lib/servlet-api-2.5.jar lib/slf4j-api-1.7.6.jar 
+      [jar] Building jar: F:\workspace\javaworkspace\AntDateUtils\dist\DateUtils.jar
+
+main:
+
+BUILD SUCCESSFUL
+Total time: 1 second
