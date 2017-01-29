@@ -1,0 +1,102 @@
+Buildfile: F:\workspace\javaworkspace\AntDateUtils\build.xml
+
+clean:
+
+init:
+    [mkdir] Created dir: F:\workspace\javaworkspace\AntDateUtils\target
+    [mkdir] Created dir: F:\workspace\javaworkspace\AntDateUtils\war\WEB-INF\classes
+
+resolve:
+     [echo] Getting dependencies...
+[ivy:retrieve] :: Apache Ivy 2.4.0-rc1 - 20140315220245 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: url = jar:file:/C:/Users/Ashish/.ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache#WebProject;working@LAPTOP-6QKBKITC
+[ivy:retrieve] 	confs: [compile, runtime, test]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.7.6 in public
+[ivy:retrieve] 	found jstl#jstl;1.2 in public
+[ivy:retrieve] 	found ch.qos.logback#logback-classic;1.1.2 in public
+[ivy:retrieve] 	found ch.qos.logback#logback-core;1.1.2 in public
+[ivy:retrieve] 	found org.springframework#spring-core;4.1.3.RELEASE in public
+[ivy:retrieve] 	found commons-logging#commons-logging;1.2 in public
+[ivy:retrieve] 	found org.springframework#spring-beans;4.1.3.RELEASE in public
+[ivy:retrieve] 	found org.springframework#spring-context;4.1.3.RELEASE in public
+[ivy:retrieve] 	found org.springframework#spring-aop;4.1.3.RELEASE in public
+[ivy:retrieve] 	found aopalliance#aopalliance;1.0 in public
+[ivy:retrieve] 	found org.springframework#spring-expression;4.1.3.RELEASE in public
+[ivy:retrieve] 	found org.springframework#spring-web;4.1.3.RELEASE in public
+[ivy:retrieve] 	found org.springframework#spring-webmvc;4.1.3.RELEASE in public
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/jstl/jstl/1.2/jstl-1.2.jar ...
+[ivy:retrieve] ......
+[ivy:retrieve] .....
+[ivy:retrieve] . (404kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] jstl#jstl;1.2!jstl.jar (4765ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/org/springframework/spring-core/4.1.3.RELEASE/spring-core-4.1.3.RELEASE.jar ...
+[ivy:retrieve] .......
+[ivy:retrieve] ..........
+[ivy:retrieve] .............. (983kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.springframework#spring-core;4.1.3.RELEASE!spring-core.jar (5578ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/org/springframework/spring-beans/4.1.3.RELEASE/spring-beans-4.1.3.RELEASE.jar ...
+[ivy:retrieve] .................... (691kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.springframework#spring-beans;4.1.3.RELEASE!spring-beans.jar (2282ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/org/springframework/spring-context/4.1.3.RELEASE/spring-context-4.1.3.RELEASE.jar ...
+[ivy:retrieve] ............................ (1002kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.springframework#spring-context;4.1.3.RELEASE!spring-context.jar (2299ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE.jar ...
+[ivy:retrieve] ...................... (696kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.springframework#spring-web;4.1.3.RELEASE!spring-web.jar (2017ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE.jar ...
+[ivy:retrieve] ..................... (763kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.springframework#spring-webmvc;4.1.3.RELEASE!spring-webmvc.jar (2081ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar ...
+[ivy:retrieve] ... (60kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] commons-logging#commons-logging;1.2!commons-logging.jar (1190ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE.jar ...
+[ivy:retrieve] ............. (350kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.springframework#spring-aop;4.1.3.RELEASE!spring-aop.jar (1627ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/org/springframework/spring-expression/4.1.3.RELEASE/spring-expression-4.1.3.RELEASE.jar ...
+[ivy:retrieve] ......... (253kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.springframework#spring-expression;4.1.3.RELEASE!spring-expression.jar (1481ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar ...
+[ivy:retrieve] .. (4kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] aopalliance#aopalliance;1.0!aopalliance.jar (1107ms)
+[ivy:retrieve] :: resolution report :: resolve 29999ms :: artifacts dl 24451ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      compile     |   13  |   10  |   10  |   0   ||   13  |   10  |
+	|      runtime     |   13  |   10  |   10  |   0   ||   13  |   10  |
+	|       test       |   13  |   10  |   10  |   0   ||   13  |   10  |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache#WebProject
+[ivy:retrieve] 	confs: [compile, runtime, test]
+[ivy:retrieve] 	13 artifacts copied, 0 already retrieved (5920kB/360ms)
+
+compile:
+    [javac] Compiling 1 source file to F:\workspace\javaworkspace\AntDateUtils\war\WEB-INF\classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.7
+    [javac] 1 warning
+
+copy-resources:
+     [copy] Copying 1 file to F:\workspace\javaworkspace\AntDateUtils\war\WEB-INF\classes
+
+package:
+[ivy:retrieve] :: retrieving :: org.apache#WebProject
+[ivy:retrieve] 	confs: [runtime]
+[ivy:retrieve] 	0 artifacts copied, 13 already retrieved (0kB/5ms)
+      [war] Building war: F:\workspace\javaworkspace\AntDateUtils\target\helloproject.war
+
+main:
+
+BUILD SUCCESSFUL
+Total time: 56 seconds
